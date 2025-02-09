@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-const SERVER_URL = "http://localhost:5000"; // Toggle to production if needed
+// const SERVER_URL = "http://localhost:5000";
+const SERVER_URL = "https://robot-production-df33.up.railway.app";
 
 export default function ServoControl() {
   const [loading, setLoading] = useState(false);
